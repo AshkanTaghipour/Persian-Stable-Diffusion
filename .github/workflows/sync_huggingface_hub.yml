@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://AshTag:$HF_TOKEN@huggingface.co/spaces/AshTag/Persian-SD main
+        run: git push --force https://AshTag:$HF_TOKEN@huggingface.co/spaces/AshTag/Persian-SD main
